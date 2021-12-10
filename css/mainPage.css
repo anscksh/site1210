@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aclonica';
+}
+
+/* Nav */
+.nav {
+    width: 100vw;
+    height: 5vh;
+    position: sticky;
+    background-color: darkslategray;
+}
+.navCon {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.dropbox {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.megaMenu {
+    width: 70vw;
+    height: 10vh;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    transform: translate(-50%);
+    z-index: 1;
+    background-color: darkslategray;
+}
+.subMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* MainAds */
+.mainAds {
+    width: 70vw;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: gray;
+}
+.mainImg {
+    width: 100%;
+    height: 90%;
+}
+.tabs {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+button {
+    border: none;
+    background-color: white;
+}
+.tabButton {
+    width: 20%;
+    height: 100%;
+    font-family: 'Angkor';
+}
+
+.subAds {
+    width: 70vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+}
+.card {
+    width: 24%;
+    height: 95%;
+}
+.subImg {
+    width: 100%;
+    height: 70%;
+    background-color: green;
+}
+.subText {
+    width: 100%;
+    height: 30%;
+    background-color: yellow;
+}
