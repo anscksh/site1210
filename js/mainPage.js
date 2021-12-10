@@ -9,7 +9,8 @@ function openMainTab(product, element) {
         tabButton[i].style.backgroundColor = "";
     }
     document.getElementById(product).style.display = "block";
-    element.style.backgroundColor = "whitesmoke";
+    element.style.backgroundColor = "lightgray";
+    element.style.opacity = "0.7";
 }
 
 document.getElementById("default").click();
